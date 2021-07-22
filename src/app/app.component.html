@@ -1,0 +1,35 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+  </div>
+  <h2>{{name}}</h2>
+  <h2>{{name | lowercase}}</h2>
+  <h2>{{name | uppercase}}</h2>
+  <h2>{{msg | titlecase}}</h2>
+  <h2>{{msg | slice:11}}</h2>
+  <h2>{{msg | slice:8:22}}</h2>
+
+  <h2>{{employee |json }}</h2>
+  <h2>{{5343.678}}</h2>
+  <h2>{{5343.678 |number:'5.2-2'}}</h2>
+  <h2>{{5.678 |number:'1.4-2'}}</h2>
+  <h2>{{5.6787887 |number:'3.4-5'}}</h2>
+  <h2>{{5.678 |number:'5.3-3'}}</h2>
+
+  <h2> {{0.45 | percent}}</h2>
+
+  <h2> {{20 | currency}}</h2>
+  <h2> {{20 | currency:'GBP'}}</h2>
+  <h2> {{20 | currency:'INR'}}</h2>
+  <h2> {{20 | currency:'EUR'}}</h2>
+
+  <h2>{{date}}</h2>
+  <h2>{{date | date:'short'}}</h2>
+  <h2>{{date | date:'shortDate'}}</h2>
+  <h2>{{date | date:'shortTime'}}</h2>
+
+  <h2>{{date | date:'dd/MM/yyyy'}}</h2>
+  <h2>{{date | date:'dd/M/yyyy'}}</h2>
+  <h2>{{date | date:'dd/MMMM/yyyy'}}</h2>
